@@ -71,7 +71,7 @@ const mostrar = ref(true)
       <h1 v-bind:title="titol">Pasa el ratolín por aquín</h1>
       <h2>Ejemplo de v-model</h2>
 
-      <img :src="imageURL">
+      <img class="imagen" :src="imageURL">
     </div>
     <div>
       <h2>REF</h2>
@@ -123,5 +123,12 @@ div{
   margin: 15px;
   padding:15px;
   border: 1px solid black 
+}
+
+@media(max-width : 748px){
+  .imagen{
+    width: 175px;
+    height: auto;
+  }
 }
 </style>
