@@ -69,7 +69,7 @@ const mostrar = ref(true)
     <h1>Conceptos básicos de VUE Hugo Alonso</h1>
     <div>
       <h1 v-bind:title="titol">Pasa el ratolín por aquín</h1>
-      <h2>Ejemplo de v:model</h2>
+      <h2>Ejemplo de v-model</h2>
 
       <img :src="imageURL">
     </div>
@@ -88,7 +88,7 @@ const mostrar = ref(true)
     </div>
 
     <div>
-      <h2>Exemple v:model</h2>
+      <h2>Exemple v-model</h2>
       <h3>Nombre de usuario: {{ nomUsuario }}</h3>
       <input type="text" placeholder="Escribe tu nombre de usuario" v-model="nomUsuario">
     </div>
