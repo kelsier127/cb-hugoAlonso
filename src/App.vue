@@ -66,6 +66,7 @@ const mostrar = ref(true)
 
 <template>
   <div>
+    <h1>Conceptos básicos de VUE Hugo Alonso</h1>
     <div>
       <h1 v-bind:title="titol">Pasa el ratolín por aquín</h1>
       <h2>Ejemplo de v:model</h2>
