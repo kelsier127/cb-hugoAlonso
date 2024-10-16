@@ -18,8 +18,8 @@ const reiniciar = () => {
 
 // ejemplo div REACTIVE
 const usuari = reactive({
-  nom: "Fabian",
-  cognom: "Plana",
+  nom: "Pep",
+  cognom: "Guardiola",
   dni: "48196179R",
   edad: 18
 });
